@@ -1,0 +1,226 @@
+.macwrapper {
+  background-image:url("media/macbook-background.jpg");
+  position: fixed;
+  width: 100% !important;
+  height: 100% !important;
+  background-size: cover;
+  background-position: right;
+  font-family: 'Lato', sans-serif;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+/*transparent header overlapping macbook image which is placed in App.js/App.css*/
+
+.header {
+  width: 100%;
+  min-width: 300px;
+  background-image: linear-gradient(125deg, white 1%, rgb(170, 208, 198) 60%);
+  opacity: .8;
+  height: 100%;
+  position: relative;
+  text-align: center;
+}
+
+/*Flexibla Kontoret logotype below this point*/
+
+.logo-wrapper {
+  padding-top: 30px;
+}
+.logo {
+  height: 60px;
+  background-image:url("media/flexibla-kontoret-logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 25%;
+}
+
+/*div which includes h1, p and login-button below this point*/
+
+.header-content {
+  color: black;
+  margin-top: 20rem;
+  font-size: 2.2em;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+/*main header h1 below this point*/
+
+.header-content h1 {
+  letter-spacing: 20px;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+/*paragraph/slogan below this point*/
+
+.header-content p {
+  margin-bottom: 50px;
+  font-weight: bolder;
+  font-size: .7em;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+/*login button below this point*/
+
+.login-button {
+  background: none;
+  border: solid 2px black;
+  color: black;
+  font-size: 0.8em;
+  font-weight: normal;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+.login-button:hover {
+  text-decoration: none;
+  color: black;
+  border: solid 3px black;
+  background-color: rgb(170, 208, 198);
+}
+
+/*Media query for header elements*/
+
+@media screen and (max-width: 640px) {
+  .head {
+    background-image: linear-gradient(125deg, white 1%, rgb(170, 208, 198) 60%);
+    opacity: .8;
+  }
+
+  .logo {
+    margin-left: 10%;
+    height: 30px;
+  }
+
+  .header-content {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10rem;
+  }
+
+  .header-content p {
+    font-size: .5em;
+  }
+
+  .header-content h1{
+    font-size: 1.2em;
+    font-weight: bolder;
+  }
+  .login-button {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border: solid 2px black;
+  }
+}
+
+
+
+@media screen and (max-width: 350px) {
+  .head {
+    background-image: linear-gradient(125deg, white 1%, rgb(170, 208, 198) 60%);
+    opacity: .8;
+  }
+
+  .logo {
+    margin-left: 10%;
+    height: 30px;
+  }
+
+  .header-content {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 10rem;
+  }
+
+  .header-content p {
+    font-size: .5em;
+    margin-top: 1rem;
+  }
+
+  .header-content h1{
+    font-size: 1.2em;
+    font-weight: bolder;
+  }
+  .login-button {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    border: solid 2px black;
+  }
+}
+
+
+/*wrapper for main content below this point*/
+
+.main-content-wrapper {
+  opacity: .9;
+  background-color: black;
+  font-size: 1.2rem;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+video {
+  width: 100%;
+}
+
+.first {
+  margin-bottom: 70px;
+}
+
+/*added some additional global styling for rows and columns*/
+
+.row {
+  color: white;
+  max-width: 1000px;
+}
+
+.col {
+  min-width: 250px;
+  margin: 10px;
+}
+
+.main-content-wrapper a {
+  text-decoration: none;
+  color: rgb(115,194,190);
+}
+
+.main-content-wrapper a:hover {
+  color: rgb(92,155,152);
+}
+
+@media screen and (max-width: 350px) {
+  .col {
+    font-size: 1rem;
+  }
+}
+
+/*footer-wrapper below this point*/
+
+.footer-content-wrapper {
+  background-color: black;
+  width: 100% !important;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: white;
+  text-align: center;
+}
+
+/*social-media buttons below this point*/
+
+.fab {
+  font-size: 30px;
+  color: rgb(115,194,190);
+}
+
+.fab:hover {
+    text-decoration: none;
+    color: rgb(92,155,152);
+}
