@@ -137,6 +137,7 @@
   .header-content {
     text-align: center;
     font-size: 1em;
+    margin: 0 auto;
     margin-top: 10rem;
     max-width:270px;
   }
