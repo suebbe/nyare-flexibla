@@ -137,9 +137,8 @@
   .header-content {
     text-align: center;
     font-size: 1em;
-    margin: 0 auto;
     margin-top: 10rem;
-    max-width:300px;
+    max-width:270px;
   }
 
   .header-content p {
@@ -150,6 +149,7 @@
   .header-content h1{
     font-size: 1.7em;
     letter-spacing: 12px;
+    max-width: 270px;
   }
   .login-button {
     text-decoration: none;
